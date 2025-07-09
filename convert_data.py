@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, DateTime, create_engine
-from sqlalchemy.orm import declarative_base, sessionmaker
+import sqlite3
 import pandas as pd
 from datetime import datetime
 from transaction import Transaction
